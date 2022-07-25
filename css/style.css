@@ -3,3 +3,78 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+
+/*   CLASSI COMUNI  */
+
+    .flex{
+        display: flex;
+    }
+
+    .space-between{
+        justify-content: space-between;
+    }
+
+    .align-items{
+        align-items: center;
+    }
+
+    /* .container-header{
+        align-content: center;
+    } */
+
+/*   CLASSI COMUNI  */
+
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+
+header{
+    background-color: #0084fd;
+    width: 100%;
+    /* min-height: 80px; */
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+header .flex .logo{
+    padding-left: 10px;
+}
+
+header .flex .menu{
+    padding-right: 10px;
+    cursor: pointer;
+}
+
+header .flex .menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: none;
+}
+
+header .flex .menu ul li{
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+header .flex .menu ul li button{
+    padding: 5px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 0;
+}
+
+
+@media screen and (min-width:1200px){
+
+    .menu .fa-bars{
+        display: none;
+    }
+
+    header .flex .menu ul {
+        display: flex;
+    }
+    
+}
