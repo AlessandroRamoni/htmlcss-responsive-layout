@@ -23,11 +23,23 @@
         align-content: center;
     } */
 
+    .card div img{
+        display: block;
+    }
+
+
 /*   CLASSI COMUNI  */
 
 body{
     font-family: 'PT Sans', sans-serif;
 }
+
+main{
+    padding-top: 80px;
+}
+
+
+/* HEADER */
 
 header{
     background-color: #0084fd;
@@ -66,6 +78,40 @@ header .flex .menu ul li button{
     border: 0;
 }
 
+header .flex .menu i{
+    color: #ffffff;
+}
+
+/*FIRST SECTION*/
+
+.container-first-section{
+    background-color: #ffffff;
+    min-height: 1000px;
+}
+
+.card{
+    border: 1px dotted red;
+    background-color: #b5ddff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    /* height: 200px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card *{
+    margin-top: 20px;
+}
+
+.card div img{
+    width: 300px;
+}
+
+
+
+/* MEDIA QUERY*/
 
 @media screen and (min-width:1200px){
 
