@@ -179,6 +179,16 @@ header .flex .menu i{
     font-size: 1.5em;
 }
 
+#startegic-planning h2, #strategic-planning p{
+    padding-top: 50px;
+}
+
+#strategic-planning p{
+    padding-bottom: 50px;
+    line-height: 30px;
+    font-size: 0.8em;
+}
+
 
 .container-background-white{
     background-color: #ffffff;
