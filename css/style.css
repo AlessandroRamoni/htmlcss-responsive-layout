@@ -149,6 +149,23 @@ header .flex .menu i{
     margin-bottom: 50px;
 }
 
+
+.container-first-section button{
+    color: #ffffff;
+    background-color: #0084fd;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+.container-first-section button i{
+    color: #ffffff;
+    font-size: 2em;
+    vertical-align: middle;
+}
+
 /* SECOND SECTION*/
 
 .container-second-section{
@@ -540,5 +557,12 @@ footer{
     header .flex .menu ul {
         display: flex;
     }
+
+    .container-first-section{
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    
+
     
 }
