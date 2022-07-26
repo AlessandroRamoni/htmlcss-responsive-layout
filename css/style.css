@@ -467,6 +467,41 @@ footer{
 
 @media screen and (min-width:768px) {
     
+    .container-first-section{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    
+    /* .container-first-section:first-child{
+        width: calc(100% / 3 * 2);
+    } */
+
+    .card{
+        width: 30%;
+    } 
+
+    #developement{
+        flex-grow: 1;
+    }
+
+    .container-background-violet{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .container-background-violet div{
+        flex-basis: 40%;
+    }
+
+    .container-background-violet .testi{
+        font-size: 1em;
+    }
+
+
 }
 
 
