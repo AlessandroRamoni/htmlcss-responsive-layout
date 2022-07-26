@@ -480,11 +480,15 @@ footer{
     } */
 
     .card{
-        width: 30%;
+        width: calc(100% / 3);
     } 
 
-    #developement{
+    #demo{
         flex-grow: 1;
+    }
+
+    #web-design, #developement, #branding{
+        width: calc(100% / 3 - 20px);
     }
 
     .container-background-violet{
