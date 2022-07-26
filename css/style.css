@@ -46,6 +46,11 @@
         background-color: #9792e4;
     }
 
+    .margini{
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
 
 /*   CLASSI COMUNI  */
 
@@ -191,6 +196,66 @@ header .flex .menu i{
     margin-bottom: 40px;
 }
 
+/* TERZA SEZIONE */
+
+.container-third-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.testimonials{
+    text-align: center;
+    padding: 30px 0;
+}
+
+.testimonials h2{
+    color: #9792e4;
+}
+
+.testimonials p{
+    color: #111111;
+}
+
+.testimonials > *{
+    padding-top: 40px;
+    font-size: 1.4em;
+}
+
+.container-background-violet{
+    background-color: #9792e4;
+    border-radius: 40px;
+    /* margin-top: 100px; */
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.container-background-violet img{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.container-third-section .testi p::before,
+.container-third-section .testi p::after{
+    font-size: 2em;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.container-third-section .testi p::before{
+    content: open-quote;
+}
+
+.container-third-section .testi p::after{
+    content: close-quote;
+}
+
+.container-third-section .testi h4{
+    padding: 30px 0;
+}
 
 
 
