@@ -501,6 +501,26 @@ footer{
         font-size: 1em;
     }
 
+.container-benefits-section{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.benefits-card{
+    width: calc(100% / 2 - 20px)
+}
+
+.container-about-us{
+    display: flex;
+    flex-direction: row;
+}
+
+#left{
+    text-align: center;
+}
+
 
 }
 
