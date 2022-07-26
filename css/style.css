@@ -54,12 +54,13 @@
     .benefits-card button{
         color: #ffffff;
         background-color: #9792e4;
-        padding: 5px 20px;
+        padding: 10px 40px;
         border: 0;
         border-radius: 25px;
         margin-left: 25px;
         margin-top: 30px;
         margin-bottom: 30px;
+        cursor: pointer;
     }
 
 
@@ -301,10 +302,70 @@ header .flex .menu i{
     margin-left: 25px;
 }
 
+.benefits-card h1{
+    font-size: 3em;
+}
+
 .benefits-card p{
     color: #737373;
     margin-left: 25px;
 }
+
+#benefits{
+    padding-bottom: 50px;
+}
+
+    /* SEZIONE ABOUT US*/
+
+    .container-about-us{
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #about-us{
+        padding-top: 40px;
+    }
+    
+    #about-us h2{
+        color: #9792e4;
+        text-align: left;
+        font-size: 2.5em;
+    }
+
+    #about-us p{
+        color: #111111;
+        font-size: 1em;
+        padding-top: 40px;
+        line-height: 35px;
+    }
+
+  .img-profilo{
+    width: 40%;
+    padding-top: 30px;
+  }
+
+  .img-profilo img{
+    width: 100%;
+    border-radius: 50%;
+  }
+
+  #testo-profilo p{
+    color: #9792e4;
+    font-size: 1.7em;
+  }
+
+  #testo-profilo button{
+    color: #ffffff;
+    background-color: #9792e4;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 25px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+  }
+
+    
 
 
 
