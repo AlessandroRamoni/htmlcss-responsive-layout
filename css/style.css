@@ -145,6 +145,11 @@ header .flex .menu i{
     width: 250px;
 }
 
+#demo img{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 .container-first-section div:last-child{
     margin-bottom: 50px;
 }
@@ -508,6 +513,10 @@ footer{
         width: calc(100% / 3 - 20px);
     }
 
+    #branding{
+        height: 100%;
+    }
+
     .container-background-violet{
         display: flex;
         flex-direction: row;
@@ -563,6 +572,7 @@ footer{
         margin: 0 auto;
     }
     
+ 
 
     
 }
