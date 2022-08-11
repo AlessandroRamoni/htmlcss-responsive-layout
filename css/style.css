@@ -587,7 +587,31 @@ footer{
         margin: 0 auto;
     }
     
- 
+    #demo{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    #demo div{
+        font-size: 1em;
+        flex-basis: 50%;
+    }
+
+    .container-first-section #demo div img{
+        width: 230px;
+    }
+
+
+    .card p{
+    font-size: 1em;
+    }
+
+    /* .card *{
+        padding-top: 0;
+        margin-top: 0;
+    } */
+
 
     
 }
