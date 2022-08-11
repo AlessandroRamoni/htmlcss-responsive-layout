@@ -155,7 +155,7 @@ header .flex .menu i{
 } */
 
 
-.container-first-section button{
+.container-first-section div button{
     color: #ffffff;
     background-color: #0084fd;
     padding: 10px 40px;
@@ -163,16 +163,26 @@ header .flex .menu i{
     border-radius: 25px;
     margin-bottom: 30px;
     cursor: pointer;
+    width: 200px;
 }
 
 .container-first-section button i{
     color: #ffffff;
     font-size: 2em;
     vertical-align: middle;
+    margin-top: 0;
+    line-height: 2em;
 }
 
 .container-first-section #demo div img{
     width: 400px;
+}
+
+#demo div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
 /* SECOND SECTION*/
