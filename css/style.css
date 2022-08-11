@@ -150,9 +150,9 @@ header .flex .menu i{
     margin-bottom: 0;
 }
 
-.container-first-section div:last-child{
+/* .container-first-section div:last-child{
     margin-bottom: 50px;
-}
+} */
 
 
 .container-first-section button{
@@ -169,6 +169,10 @@ header .flex .menu i{
     color: #ffffff;
     font-size: 2em;
     vertical-align: middle;
+}
+
+.container-first-section #demo div img{
+    width: 400px;
 }
 
 /* SECOND SECTION*/
@@ -531,25 +535,26 @@ footer{
         font-size: 1em;
     }
 
-.container-benefits-section{
+    .container-benefits-section{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 20px;
-}
+    }
 
-.benefits-card{
+
+    .benefits-card{
     width: calc(100% / 2 - 20px)
-}
+    }
 
-.container-about-us{
+    .container-about-us{
     display: flex;
     flex-direction: row;
-}
+    }
 
-#left{
+    #left{
     text-align: center;
-}
+    }
 
 
 }
